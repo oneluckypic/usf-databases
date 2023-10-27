@@ -1,0 +1,6 @@
+name: usf-databases
+dependencies:
+  - python<3.10
+  - jupyterlab
+  - pandas
+  - psycopg2
