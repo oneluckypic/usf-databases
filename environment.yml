@@ -1,6 +1,11 @@
 name: usf-databases
 dependencies:
   - python<3.10
+  - celluloid
+  - ipython
   - jupyterlab
+  - geopandas
+  - matplotlib
+  - moviepy
   - pandas
   - psycopg2
