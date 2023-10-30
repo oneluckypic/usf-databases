@@ -1,41 +1,29 @@
-# covid-19 repository
+# Database Course with ElephantSQL, NYC Covid Incidence Rate Data, NYC Zip Code Populations Data and Animated Geospatial Visualizations
 
-To make a local copy of this repository run the following two commands:
+## Install Mamba
 
-```bash
-git clone git@github.com:oneluckypic/covid-19.git
+Mambaforge is a common python tool and instructions online are plentiful
 
-cd covid-19
-
-On Windows:
-
-update_data.bat
-
-On Mac:
-
-./update_data.sh
-
+## Create conda environment
 ```
-
+mamba env create -f environment.yml
+```
+## Activate new conda environment
+```
+conda activate usf-database
+```
+## Start Jupyter Lab
+```
+jupyter lab
+```
+Your web browser should open a new tab. If not, open a web browser and navigate to localhost:8888
 # Resources
-
-## 3Blue1Brown
-
-[Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg)
-
-[Simulating epidemics](https://www.youtube.com/watch?v=gxAaO2rsdIs)
 
 ## GIS
 |Title|Author|Notes
 |-----|------|-----
 |[Map it with Python! Intro to GIS and Python mapping modules](https://www.youtube.com/watch?v=wsSEKm-rU6U)|Christy Heaton|[code](https://github.com/christyheaton/mapitwithpython), epsg.io, matplotlib, geopandas (uses shapely), folium w/ leaflet.js, rise (python slides), Nearmap, Stamen, mapbox, Map Time Seattle!
 |[Geospatial data analysis and visualization in Python](https://www.youtube.com/watch?v=Yd5oEIBFQ_E)|Halfdan Rump|osmnx (by Geoff Boeing), geopandas, folium
-
-#### Random Software
- * vega (for plotting)
- * color brewer (color advice for cartography)
- * [Chris Roach Github](https://github.com/croach)
- * Plotly!  (Can do interative maps)
 
 Python Geospatial Libraries
  * geopandas - Working with spatial data is fun again!
@@ -49,8 +37,8 @@ Python Geospatial Libraries
  * descartes - for plotting geometries in matplotlib
 
 # NYC Data
-[Zip Code Population Data](https://data.cityofnewyork.us/City-Government/Demographic-Statistics-By-Zip-Code/kku6-nxdu )
-[Zip Code Shapefiles](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
+[Zip Code Population Data](https://data.cityofnewyork.us/City-Government/Demographic-Statistics-By-Zip-Code/kku6-nxdu )  
+[Zip Code Shapefiles](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)  
 
 # Learning Geospatial Analysis
 

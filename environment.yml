@@ -8,4 +8,6 @@ dependencies:
   - matplotlib
   - moviepy
   - pandas
+  - pandoc
   - psycopg2
+  - xelatex
