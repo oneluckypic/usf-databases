@@ -1,5 +1,9 @@
 # Database Course with ElephantSQL, NYC Covid Incidence Rate Data, NYC Zip Code Populations Data and Animated Geospatial Visualizations
 
+## Course Lab
+
+See [Lab README](lab_README.md)
+
 ## Install Mamba
 
 Mambaforge is a common python tool and instructions online are plentiful
