@@ -10,4 +10,4 @@ dependencies:
   - pandas
   - pandoc
   - psycopg2
-  - xelatex
+  - sqlalchemy
